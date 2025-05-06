@@ -1,0 +1,88 @@
+.root {
+    -fx-background-color: #ffffff; /* Set your desired background color */
+}
+
+.label {
+    -fx-font-family: 'Arial';
+    -fx-font-size: 13pt;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
+
+.welcome-label {
+    -fx-font-family: 'Arial';
+    -fx-font-size: 16pt;
+    -fx-font-style: italic;
+    -fx-font-weight: bolder;
+    -fx-alignment: center;
+}
+
+.detect-button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-font-family: 'Arial';
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bolder;
+}
+
+.detect-button:hover {
+    -fx-background-color: #359835; /* Darker green on hover */
+    -fx-cursor: hand; /* Change cursor to a hand on hover */
+}
+
+.browse-button {
+    -fx-background-color: #008CBA; /* Blue */
+    -fx-font-family: 'Arial';
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bolder;
+}
+
+.browse-button:hover {
+    -fx-background-color: #016c94; /* Darker blue on hover */
+    -fx-cursor: hand; /* Change cursor to a hand on hover */
+}
+
+.back-button {
+    -fx-background-color: #43b0d9; /* Blue */
+    -fx-font-family: 'Arial';
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bolder;
+}
+.back-button:hover {
+    -fx-background-color: #2a7a9a; /* Darker blue on hover */
+    -fx-cursor: hand; /* Change cursor to a hand on hover */
+}
+
+.refactor-button {
+    -fx-background-color: #493da9; /* Blue */
+    -fx-font-family: 'Arial';
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bolder;
+}
+.refactor-button:hover {
+    -fx-background-color: #332788; /* Darker blue on hover */
+    -fx-cursor: hand; /* Change cursor to a hand on hover */
+}
+
+.result-text {
+    -fx-font-family: 'Arial';
+    -fx-font-size: 11pt;
+    -fx-font-weight: 600;
+    -fx-wrap-text: true; /* Enable text wrapping */
+    -fx-max-width: 300px; /* Set the maximum width for wrapping */
+}
+
+.error-alert {
+    -fx-background-color: #FFD2D2; /* Light red background */
+    -fx-border-color: #FF7171; /* Border color */
+    -fx-border-width: 3px;
+    -fx-border-radius: 6px;
+    -fx-text-fill: #FF0000; /* Red text color */
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+
